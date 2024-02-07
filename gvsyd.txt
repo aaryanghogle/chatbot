@@ -1,0 +1,26 @@
+ <section class="teams" style="padding: 20px;">
+        <h2>Our Teams</h2>
+        <ul>
+            <li>Football</li>
+            <li>Basketball</li>
+            <li>Tennis</li>
+            <li>Volleyball</li>
+        </ul>
+    </section>
+
+    <section class="events" style="padding: 20px;">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>Annual Football Tournament - July 15th</li>
+            <li>Basketball Camp for Kids - August 5th</li>
+            <li>Tennis Open Day - September 10th</li>
+        </ul>
+    </section>
+
+    <section class="contact" style="padding: 20px;">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to join our club, please feel free to contact us at <a href="mailto:info@sportsclub.com" style="text-decoration: none; color: #333;">info@sportsclub.com</a>.</p>
+    </section>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px 0;">
+        <p>&copy; 2023 Sports Club</p>

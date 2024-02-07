@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Your head content -->
+  </head>
+  <body style="font-family: Arial, sans-serif; margin: 0; padding: 0">
+    <header style="background-color: #333; color: white; padding: 10px 0">
+      <!-- Your header content -->
+    </header>
+
+    <section class="login" style="text-align: center; padding: 20px">
+      <h2 style="margin-bottom: 20px">Login</h2>
+      <form action="/login" method="POST">
+        <label for="username" style="font-weight: bold">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          style="margin-bottom: 10px; padding: 5px"
+        /><br />
+
+        <label for="password" style="font-weight: bold">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          style="margin-bottom: 20px; padding: 5px"
+        /><br />
+
+        <input
+          type="submit"
+          value="Login"
+          style="
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+          "
+        />
+      </form>
+    </section>
+
+    <footer
+      style="
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      "
+    >
+      <p>&copy; FitFusion</p>
+    </footer>
+  </body>
+</html>
